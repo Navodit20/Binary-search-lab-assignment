@@ -1,7 +1,14 @@
 # Name: Navodit Gupta
 # SID: 21107082
 # Branch: Mechanical
-
+'''
+We can search an element in an array whose size is unknown in O(logn) time complexity provided that the array is in sorted order.
+We can do this by making some modification in binary search technique.
+The concept behind this approach is:
+  ->Take inital value of i as 0 and j as 1.
+  ->Now increase j to j*2 until arr[j] exceed the key to be searched.
+  ->Now search the key using binary search between i and j.
+'''
 def binary_search(arr,l,r,x):
  
     if r >= l:
