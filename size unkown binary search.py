@@ -44,7 +44,7 @@ def findPos(a, key):
     return binary_search(a, l, h, key)
  
 # Driver function
-arr = [3, 5, 7, 9, 10, 90, 100, 130, 140, 160, 170] #change array
+arr = [3, 5, 7, 9, 10, 90, 100, 130, 140, 160, 170] #change array according to you
 element = 100 #change which element you wish to find
 ans = findPos(arr,element)
 if ans == -1:
